@@ -1,0 +1,296 @@
+/*  MAIN  */
+@font-face {
+    font-family: Mohave;
+    src: url("./Mohave-VariableFont_wght.ttf");
+  }
+@font-face {
+    font-family: Auccultist;
+    src: url("./AuccultistFont-Regular.ttf");
+  }
+body {
+    background-color: #191d2c;
+    background-size: cover;
+}
+
+
+
+
+/*  NAVIGATION BAR  */
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background-color: #00000055;
+    background-size: 100%;
+	padding: 15px;
+    font-family: Mohave, sans-serif;
+  }
+
+  
+  .topnav a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    color: #fff;
+  }
+  
+  .active {
+    color: #fff;
+  }
+
+ /* PASSWORD STUFF */
+ #passoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-box {
+  background-color: #26446470;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.password-box h2 {
+  margin-top: 0;
+}
+
+.password-box input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+
+.password-box button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #264464;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+} 
+
+
+
+
+
+
+
+/*  CONTAINERS  */
+.centerpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.container {
+	padding-right: 5px;
+    padding-left: 5px;
+	background: #0f1220;
+    border: 3px solid #00000050;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.smallcontainer {
+	margin: 0px 5px 10px;
+	background: #191d2c;
+    padding: 1px;
+    border: 1px solid #ffffff10;
+}
+.itemcontainer {
+    cursor: pointer;
+    margin: 5px;
+    padding: 18px;
+    border: 1px solid #ffffff10;
+    border-radius: 5px;
+    height: 175px;
+}
+
+.icon-box {
+    height: 50px;
+    margin: 0px 5px 10px;
+	background: #171a29;
+    padding: 1px;
+    border: 1px solid #ffffff10;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+  .export-box {
+    margin: 0px 5px 10px;
+	background: #191d2c;
+    padding: 1px;
+    border: 1px solid #ffffff10;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+  .lvl-box {
+    margin: 0px 5px 10px;
+	background: #191d2c;
+    padding: 1px;
+    border: 1px solid #ffffff10;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  /* Example style for the Font Awesome icon */
+  .icon-box i,img {
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: #fff; /* Example color */
+  }
+  .imageicon-box {
+	background: #171a29;
+    padding: 10px;
+    border: 1px solid #ffffff10;
+  }
+
+
+  .flexcontainer {
+    display: flex;
+    align-items: center;
+  }
+  .flexcontent {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  .fleximage-container {
+    width: 200px; /* Adjust the width of the image container */
+  }
+  .fleximage-container img {
+    width: 95%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+
+
+
+/*  LINK & IMGS */
+.iteminfo {
+	margin: 5px 5px 10px ; 
+	background: #191d2c;
+    padding: 1px;
+    border: 1px solid #ffffff10;
+    height: 600px;
+    overflow-x:hidden; 
+    overflow-y:auto; 
+}
+img {
+    display: block;
+    margin: auto;
+  }
+a {
+    color: #d8baac;
+}
+a:hover{
+    color:#fff
+}
+.icon {
+  color: #A58473;
+  font-size: 1.25em;
+}
+.overlay{
+  opacity:0.5;
+  background-color:#000;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+}
+.imageicon{
+    max-width: 75px;
+    max-height: 75px;
+}
+.tinyimageicon{
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    top: -65px;
+    left: 30px;
+    margin-bottom: -30px;
+}
+
+
+
+/*  TITLES, ETC  */
+.centerpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+hr {
+    border-top: 1px dashed #a5847377;
+    margin: 0;
+}
+.h1title {
+    font-size:30px;
+    color: #fff;
+    text-align: justify;
+    padding: 5px 5px 0px 5px;
+    letter-spacing: 3px;
+    font-family: Auccultist, sans-serif;
+}
+.h1 {
+    font-size:22px;
+    color: #c5a391;
+    text-align: justify;
+    padding: 5px 5px 0px 5px;
+    letter-spacing: 2px;
+    font-family: Auccultist, sans-serif;
+}
+
+
+
+/*  PARAGRAPHS  */
+.p {
+    font-size:16px;
+    color: #A58473;
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-family: Mohave, sans-serif;
+}
+.psmall {
+    font-size:14px;
+    color: #a5847399;
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-family: Mohave, sans-serif;
+}
+
+
+
+/*  COPYRIGHT  */
+.copyright {
+    right:0;
+    left:inherit;
+    background: #00000080;
+    color:#ffffff80;
+}
+
+
+
