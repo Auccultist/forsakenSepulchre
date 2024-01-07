@@ -263,7 +263,7 @@ hr {
 
 
 /*  PARAGRAPHS  */
-.p {
+.p,p,div#result {
     font-size:16px;
     color: #A58473;
     text-align: justify;
@@ -282,7 +282,13 @@ hr {
     font-family: Mohave, sans-serif;
 }
 
-
+.answer-option {
+  display: block; 
+  font-size:14px;
+  color: #a5847399;
+  font-family: Mohave, sans-serif;
+  padding: 0px 20px
+}
 
 /*  COPYRIGHT  */
 .copyright {
